@@ -1,0 +1,41 @@
+.chart-wrapper {
+    text-align: center;
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    padding: 0;
+    border-radius: 3px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+
+    &.titles {
+        > div {
+            font-weight: bold;
+        }
+    }
+
+    > label,
+    > div:first-child {
+        padding: .5em 1em .5em 0;
+        flex: 1;
+    }
+
+    > div {
+        text-align: center;
+    }
+    
+    > div,
+    > input {
+        flex: 2;
+    }
+
+    > div,
+    > input {
+        padding: .5em;
+    }
+}
